@@ -1,1 +1,48 @@
-i
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site de Mercado</title>
+</head>
+<body>
+    <header>
+        <h1>Max Market</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Padaria</a></li>
+            <li><a href="#">Frutaria</a></li>
+            <li><a href="#">Açougue</a></li>
+        </ul>
+    </nav>
+    <section id="bolo-secao">
+        <div class="bolo">
+            <img src="bolo_chocolate.jpg" alt="Padaria">
+            <h2>Padaria</h2>
+            <p>Uma padaria com pães fresquinhos, salgados assados na hora e bolos incrivelmente deliciosos</p>
+            <button onclick="mostrarDetalhes('chocolate')">Ver Detalhes</button>
+        </div>
+        <div class="bolo">
+            <img src="bolo_morango.jpg" alt="Frutaria">
+            <h2>Frutaria</h2>
+            <p>Frutas verdinhas e bem cultivadas.</p>
+            <button onclick="mostrarDetalhes('morango')">Ver Detalhes</button>
+        </div>
+    </section>
+    <section id="Açogue">
+        <h2>AÇOGUE</h2>
+        <div id="detalhes-chocolate">
+            <img src="bolo_chocolate.jpg" alt="Açogue">
+            <p>As carnes de melhor qualidade.</p>
+        </div>
+        <div id="Açogue">
+            <img src="bolo_morango.jpg" alt="Carnes">
+            <p>Preços únicos!.</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
